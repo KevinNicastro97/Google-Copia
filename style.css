@@ -88,15 +88,23 @@ img {
     height: 30px;
     border: none;
     background-color: none;
+  
+}
+i {
+    text-align: left;
+    color: rgb(204, 202, 202);
+    font-weight: 10px ;
 }
 #icono {
     padding-left: 20px;
+  
 }
 #icono:active {
     outline: none;
 }
 
 #icono:focus {
+    font-size: 18px;
     outline: none;
 }
 .Barra .Rectangulo:hover {
@@ -232,11 +240,4 @@ hr {
 }
 .lupa {
     width: 3px;
-}
-
-
-#icono {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f002";
 }
